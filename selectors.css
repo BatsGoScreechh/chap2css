@@ -1,0 +1,58 @@
+header {
+    border: 1px solid goldenrod;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: space-evenly;
+
+  }
+
+header ul li {
+      display:inline;
+  }
+
+  .disabled{
+      color: gray;
+  }
+
+  a:link {
+      color: purple;
+  }
+
+  .active{
+      color: yellow;
+  }
+
+  .parent > div > div:first-child {
+      color: red;
+  }
+
+  .parent > div > div:first-child + h4 {
+      background-color: red;
+  }
+
+  .parent > div > div:nth-child(3) {
+      color: blue;
+  }
+
+  .parent > div > div:nth-child(3) + h4 {
+    background-color: blue;
+  }
+
+  .grandparent > h4 {
+      border: 1px solid;
+      border-radius: 5px;
+  }
+
+  .promo {
+      font-weight: bold;
+      color: gold;
+  }
+
+  input {
+      height: 25px;
+  }
